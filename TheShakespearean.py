@@ -60,7 +60,7 @@ class ShakespeareChatbot:
             model=self.model,
             messages=messages,
             temperature=0.85,
-            max_tokens=220,
+            max_tokens=450,
         )
 
         reply = response.choices[0].message.content.strip()
